@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.dflex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 30ox 50px 20px 50px;
+  box-sizing: border-box;
+ background-color:rgb(21, 34, 68);
+ color: white;
+
+}
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.logo{
+  font-size: 25px;
+  text-transform: uppercase;
+  color: rgb(206, 235, 126);
+}
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+li{
+  margin-left:15px;
+  font-size: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  color:goldenrod;
+  cursor: pointer;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  width: 70%;
+  height: 100%;
+  margin: 50px auto;
+  padding: 50px 0 0;
+}
+.card_img{
+  margin-top: 2vh;
+  width: 300x;
+}
+.card_Header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: chartreuse;
+}
+
+.card_Header price{
+  font-size: 15px;
+}
+.card_Header p{
+  font-size: 14px;
+}
+.btn input{ 
+margin: 0;
+padding: 5px;
+align-items: center;
+justify-content: center;
+display: flex;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  box-sizing: none;
+}
+.card:hover{
+  color: tomato;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+ul li:hover{
+  color: goldenrod;
+  cursor: pointer;
+  transform: scale(1.5);
+}
